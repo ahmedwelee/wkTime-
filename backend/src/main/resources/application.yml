@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: dbc:mysql://wktime.c7qc2o24klkn.eu-north-1.rds.amazonaws.com:3306/wktime
-    username: root
-    password: welee
+    username: admin
+    password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
